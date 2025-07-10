@@ -3,7 +3,6 @@ padding:0;}
 
 .container{
 width: 1140px;
-
 }
 
 .all_button{
@@ -18,7 +17,10 @@ header{
 background: url("Assets/Hero-bg.png") no-repeat ;
 height: 698px;
   background-size: 100% 100%;
+}
 
+main{
+    background-color: #F5F8FF;
 }
 
 nav{
@@ -40,12 +42,98 @@ font-size: 34px;
 font-style: normal;
 font-weight: 900;
 }
+
+
+
 .banner{
 color: #252432;
 text-align: center;
 font-family: Raleway;
-font-size: 65px;
+font-size: 35px;
 font-style: normal;
 font-weight: 700;
+line-height: normal;
+width: 905px;
+margin: 0 auto;
+}
+.banner h1{
+    padding:60px 0 40px 0;
+}
+
+
+
+
+.action{
+    margin: 0 auto;
+}
+.action_container{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 100px;
+}
+.action_des{
+    width: 45%;
+}
+.action_des h1{
+color: #252432;
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.action_des p{
+color: rgba(37, 36, 50, 0.50);
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 23px 0 23px 0;
+}
+
+.action_img img{
+    border-radius: 48px;
+}
+.productive_user{
+    border-radius: 24px;
+background: rgba(78, 71, 255, 0.10);
+margin: 100px  auto;
+text-align: center;
+}
+.user_container{
+    padding: 50px 80px;
+}
+.user_head{
+color: #252432;
+text-align: center;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.user_des{
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding-top: 40px;}
+
+.users h1{
+color:#4E47FF;
+font-family: Inter;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.users p{
+ color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
 line-height: normal;
 }
