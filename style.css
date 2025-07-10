@@ -3,6 +3,7 @@ padding:0;}
 
 .container{
 width: 1140px;
+margin: 0 auto;
 }
 
 .all_button{
@@ -21,6 +22,7 @@ height: 698px;
 
 main{
     background-color: #F5F8FF;
+    margin-bottom: 200px;
 }
 
 nav{
@@ -135,5 +137,44 @@ font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
+line-height: normal;
+}
+
+.review{
+    display: flex;
+    gap: 20px;
+    font-family: Inter;
+
+}
+
+.review_container{
+   width: 310px;
+   padding: 24px;
+   border-radius: 14px;
+border: 2px solid #F2EDED;
+background: rgba(255, 255, 255, 0.50);
+}
+.reviewers h1{
+padding: 20px 0 10px 0;
+color: #252432;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.avatar{
+    display: flex;
+    gap: 20PX;
+    padding-top: 20px;
+}
+.avatar_img img{
+     border-radius: 24px;
+}
+.avatar_des p{
+ color: rgba(0, 0, 0, 0.50);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
 line-height: normal;
 }
