@@ -22,7 +22,7 @@ height: 698px;
 
 main{
     background-color: #F5F8FF;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 }
 
 nav{
@@ -140,11 +140,20 @@ font-weight: 400;
 line-height: normal;
 }
 
-.review{
+.review  h1{
+    text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 0px 0 50px 0;
+}
+
+.all_review{
     display: flex;
     gap: 20px;
     font-family: Inter;
-
 }
 
 .review_container{
@@ -177,4 +186,40 @@ font-family: Inter;
 font-size: 14px;
 font-style: normal;
 line-height: normal;
+}
+
+
+.focus_container{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 71px 150px;
+border-radius: 14px;
+background: #FFF;
+margin-top: 100px;
+}
+.focus_container h1{
+    color: #252432;
+font-family: Raleway;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 20px;
+}
+
+.focus_container p{
+ color: rgba(0, 0, 0, 0.50);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+line-height: normal;
+padding-bottom: 20px;
+
+}
+.focus_container img{
+padding-top: 20px;
+height: 364.773px;
+border-radius: 48px;
 }
