@@ -14,6 +14,11 @@ background: #4E47FF;
     color: #FFFFFF;
 }
 
+.all_button:hover {
+  background-color: rgb(84, 40, 102);
+
+}
+
 header{
 background: url("Assets/Hero-bg.png") no-repeat ;
 height: 698px;
@@ -266,6 +271,10 @@ background: #4E47FF;
     padding: 12px 36px;
     color: #FFFFFF;
     width: 100%;
+}
+input[type=submit]:hover {
+  background-color:  rgb(84, 40, 102);
+ 
 }
 
 footer{
